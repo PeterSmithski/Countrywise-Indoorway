@@ -1,0 +1,6 @@
+framework module Pods_Countrywise_IndoorwayUITests {
+  umbrella header "Pods-Countrywise-IndoorwayUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

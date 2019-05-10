@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22945A245D7C54D768A8EB78 /* Pods_Countrywise_IndoorwayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3D1276A728118D30502725 /* Pods_Countrywise_IndoorwayTests.framework */; };
+		26D66384CC1A22A67BA42170 /* Pods_Countrywise_IndoorwayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93EF2E4DBDDE2295B0174F77 /* Pods_Countrywise_IndoorwayUITests.framework */; };
+		5B0D404E2281F6E100715FC7 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D404D2281F6E100715FC7 /* Country.swift */; };
 		5B1D8D632279069500B92A38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D8D622279069500B92A38 /* AppDelegate.swift */; };
-		5B1D8D652279069500B92A38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D8D642279069500B92A38 /* ViewController.swift */; };
+		5B1D8D652279069500B92A38 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D8D642279069500B92A38 /* CountryListViewController.swift */; };
 		5B1D8D682279069500B92A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D8D662279069500B92A38 /* Main.storyboard */; };
 		5B1D8D6A2279069D00B92A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D8D692279069D00B92A38 /* Assets.xcassets */; };
 		5B1D8D6D2279069D00B92A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D8D6B2279069D00B92A38 /* LaunchScreen.storyboard */; };
 		5B1D8D782279069D00B92A38 /* Countrywise_IndoorwayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D8D772279069D00B92A38 /* Countrywise_IndoorwayTests.swift */; };
 		5B1D8D832279069D00B92A38 /* Countrywise_IndoorwayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D8D822279069D00B92A38 /* Countrywise_IndoorwayUITests.swift */; };
+		5B52A78F227BB7B9003F3509 /* CountryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B52A78E227BB7B9003F3509 /* CountryDetailsViewController.swift */; };
+		5B52A791227BBDAA003F3509 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B52A790227BBDAA003F3509 /* CountryCell.swift */; };
+		5BAEBC302284D33200D10354 /* DataDownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAEBC2F2284D33200D10354 /* DataDownloadViewController.swift */; };
+		62BCD08165708C1FDF7A957D /* Pods_Countrywise_Indoorway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23033F95C6BE2E58713A7E76 /* Pods_Countrywise_Indoorway.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FAA9D8492240B30EE3C498B /* Pods-Countrywise-Indoorway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Countrywise-Indoorway.release.xcconfig"; path = "Target Support Files/Pods-Countrywise-Indoorway/Pods-Countrywise-Indoorway.release.xcconfig"; sourceTree = "<group>"; };
+		1E7F51C9496BA748289C129A /* Pods-Countrywise-IndoorwayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Countrywise-IndoorwayTests.debug.xcconfig"; path = "Target Support Files/Pods-Countrywise-IndoorwayTests/Pods-Countrywise-IndoorwayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		23033F95C6BE2E58713A7E76 /* Pods_Countrywise_Indoorway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Countrywise_Indoorway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0D404D2281F6E100715FC7 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		5B1D8D5F2279069500B92A38 /* Countrywise-Indoorway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Countrywise-Indoorway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1D8D622279069500B92A38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B1D8D642279069500B92A38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B1D8D642279069500B92A38 /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
 		5B1D8D672279069500B92A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B1D8D692279069D00B92A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B1D8D6C2279069D00B92A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,15 @@
 		5B1D8D7E2279069D00B92A38 /* Countrywise-IndoorwayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Countrywise-IndoorwayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B1D8D822279069D00B92A38 /* Countrywise_IndoorwayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countrywise_IndoorwayUITests.swift; sourceTree = "<group>"; };
 		5B1D8D842279069D00B92A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B52A78E227BB7B9003F3509 /* CountryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsViewController.swift; sourceTree = "<group>"; };
+		5B52A790227BBDAA003F3509 /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		5BAEBC2F2284D33200D10354 /* DataDownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDownloadViewController.swift; sourceTree = "<group>"; };
+		5FFE82A4CC5E341E43270B91 /* Pods-Countrywise-Indoorway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Countrywise-Indoorway.debug.xcconfig"; path = "Target Support Files/Pods-Countrywise-Indoorway/Pods-Countrywise-Indoorway.debug.xcconfig"; sourceTree = "<group>"; };
+		93EF2E4DBDDE2295B0174F77 /* Pods_Countrywise_IndoorwayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Countrywise_IndoorwayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBAF2F35395746DB2CEA60A /* Pods-Countrywise-IndoorwayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Countrywise-IndoorwayTests.release.xcconfig"; path = "Target Support Files/Pods-Countrywise-IndoorwayTests/Pods-Countrywise-IndoorwayTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE3D1276A728118D30502725 /* Pods_Countrywise_IndoorwayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Countrywise_IndoorwayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9781A032EAA74D1E6F1E89F /* Pods-Countrywise-IndoorwayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Countrywise-IndoorwayUITests.debug.xcconfig"; path = "Target Support Files/Pods-Countrywise-IndoorwayUITests/Pods-Countrywise-IndoorwayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA468DD7F6FB9156D20776AF /* Pods-Countrywise-IndoorwayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Countrywise-IndoorwayUITests.release.xcconfig"; path = "Target Support Files/Pods-Countrywise-IndoorwayUITests/Pods-Countrywise-IndoorwayUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62BCD08165708C1FDF7A957D /* Pods_Countrywise_Indoorway.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22945A245D7C54D768A8EB78 /* Pods_Countrywise_IndoorwayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D66384CC1A22A67BA42170 /* Pods_Countrywise_IndoorwayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				5B1D8D762279069D00B92A38 /* Countrywise-IndoorwayTests */,
 				5B1D8D812279069D00B92A38 /* Countrywise-IndoorwayUITests */,
 				5B1D8D602279069500B92A38 /* Products */,
+				B7646C3718B0F63CAB9FE01D /* Pods */,
+				6CC7C99F48EF3B85F75204E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +123,15 @@
 			isa = PBXGroup;
 			children = (
 				5B1D8D622279069500B92A38 /* AppDelegate.swift */,
-				5B1D8D642279069500B92A38 /* ViewController.swift */,
+				5BAEBC2F2284D33200D10354 /* DataDownloadViewController.swift */,
+				5B1D8D642279069500B92A38 /* CountryListViewController.swift */,
+				5B52A78E227BB7B9003F3509 /* CountryDetailsViewController.swift */,
 				5B1D8D662279069500B92A38 /* Main.storyboard */,
 				5B1D8D692279069D00B92A38 /* Assets.xcassets */,
 				5B1D8D6B2279069D00B92A38 /* LaunchScreen.storyboard */,
 				5B1D8D6E2279069D00B92A38 /* Info.plist */,
+				5B52A790227BBDAA003F3509 /* CountryCell.swift */,
+				5B0D404D2281F6E100715FC7 /* Country.swift */,
 			);
 			path = "Countrywise-Indoorway";
 			sourceTree = "<group>";
@@ -125,6 +154,29 @@
 			path = "Countrywise-IndoorwayUITests";
 			sourceTree = "<group>";
 		};
+		6CC7C99F48EF3B85F75204E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23033F95C6BE2E58713A7E76 /* Pods_Countrywise_Indoorway.framework */,
+				BE3D1276A728118D30502725 /* Pods_Countrywise_IndoorwayTests.framework */,
+				93EF2E4DBDDE2295B0174F77 /* Pods_Countrywise_IndoorwayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7646C3718B0F63CAB9FE01D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FFE82A4CC5E341E43270B91 /* Pods-Countrywise-Indoorway.debug.xcconfig */,
+				0FAA9D8492240B30EE3C498B /* Pods-Countrywise-Indoorway.release.xcconfig */,
+				1E7F51C9496BA748289C129A /* Pods-Countrywise-IndoorwayTests.debug.xcconfig */,
+				9EBAF2F35395746DB2CEA60A /* Pods-Countrywise-IndoorwayTests.release.xcconfig */,
+				D9781A032EAA74D1E6F1E89F /* Pods-Countrywise-IndoorwayUITests.debug.xcconfig */,
+				EA468DD7F6FB9156D20776AF /* Pods-Countrywise-IndoorwayUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B1D8D872279069D00B92A38 /* Build configuration list for PBXNativeTarget "Countrywise-Indoorway" */;
 			buildPhases = (
+				DBA2040ABB2CE42C8830342E /* [CP] Check Pods Manifest.lock */,
 				5B1D8D5B2279069500B92A38 /* Sources */,
 				5B1D8D5C2279069500B92A38 /* Frameworks */,
 				5B1D8D5D2279069500B92A38 /* Resources */,
+				666B507BAA166B01E8B2A9CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B1D8D8A2279069D00B92A38 /* Build configuration list for PBXNativeTarget "Countrywise-IndoorwayTests" */;
 			buildPhases = (
+				6024E48781E8AE29655976E3 /* [CP] Check Pods Manifest.lock */,
 				5B1D8D6F2279069D00B92A38 /* Sources */,
 				5B1D8D702279069D00B92A38 /* Frameworks */,
 				5B1D8D712279069D00B92A38 /* Resources */,
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B1D8D8D2279069D00B92A38 /* Build configuration list for PBXNativeTarget "Countrywise-IndoorwayUITests" */;
 			buildPhases = (
+				C4C66F416AB97809AA5FBBE7 /* [CP] Check Pods Manifest.lock */,
 				5B1D8D7A2279069D00B92A38 /* Sources */,
 				5B1D8D7B2279069D00B92A38 /* Frameworks */,
 				5B1D8D7C2279069D00B92A38 /* Resources */,
@@ -251,12 +307,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6024E48781E8AE29655976E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Countrywise-IndoorwayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		666B507BAA166B01E8B2A9CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Countrywise-Indoorway/Pods-Countrywise-Indoorway-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Countrywise-Indoorway/Pods-Countrywise-Indoorway-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4C66F416AB97809AA5FBBE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Countrywise-IndoorwayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA2040ABB2CE42C8830342E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Countrywise-Indoorway-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B1D8D5B2279069500B92A38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B1D8D652279069500B92A38 /* ViewController.swift in Sources */,
+				5B0D404E2281F6E100715FC7 /* Country.swift in Sources */,
+				5B52A791227BBDAA003F3509 /* CountryCell.swift in Sources */,
+				5BAEBC302284D33200D10354 /* DataDownloadViewController.swift in Sources */,
+				5B1D8D652279069500B92A38 /* CountryListViewController.swift in Sources */,
+				5B52A78F227BB7B9003F3509 /* CountryDetailsViewController.swift in Sources */,
 				5B1D8D632279069500B92A38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,10 +583,15 @@
 		};
 		5B1D8D882279069D00B92A38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FFE82A4CC5E341E43270B91 /* Pods-Countrywise-Indoorway.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4V977U8B77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Countrywise-Indoorway/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -442,16 +600,21 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.peter-smithski.Countrywise-Indoorway";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5B1D8D892279069D00B92A38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FAA9D8492240B30EE3C498B /* Pods-Countrywise-Indoorway.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4V977U8B77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Countrywise-Indoorway/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,12 +623,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.peter-smithski.Countrywise-Indoorway";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		5B1D8D8B2279069D00B92A38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7F51C9496BA748289C129A /* Pods-Countrywise-IndoorwayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +651,7 @@
 		};
 		5B1D8D8C2279069D00B92A38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EBAF2F35395746DB2CEA60A /* Pods-Countrywise-IndoorwayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +673,7 @@
 		};
 		5B1D8D8E2279069D00B92A38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9781A032EAA74D1E6F1E89F /* Pods-Countrywise-IndoorwayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +694,7 @@
 		};
 		5B1D8D8F2279069D00B92A38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA468DD7F6FB9156D20776AF /* Pods-Countrywise-IndoorwayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

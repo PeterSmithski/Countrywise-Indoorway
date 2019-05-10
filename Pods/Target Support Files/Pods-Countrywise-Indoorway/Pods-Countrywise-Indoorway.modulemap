@@ -1,0 +1,6 @@
+framework module Pods_Countrywise_Indoorway {
+  umbrella header "Pods-Countrywise-Indoorway-umbrella.h"
+
+  export *
+  module * { export * }
+}
