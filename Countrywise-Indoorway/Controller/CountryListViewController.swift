@@ -18,7 +18,7 @@ class CountryListViewController: UIViewController {
     
     var countries = [Country]()
     var filteredCountries = [Country]()
-    var location: CLLocation!
+    var selectedCountry: Country!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,14 +53,14 @@ extension CountryListViewController: UICollectionViewDataSource, UICollectionVie
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        location = filteredCountries[indexPath.item].initialLocation
+        selectedCountry = filteredCountries[indexPath.item]
         performSegue(withIdentifier: "detailSegue", sender: nil)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "detailSegue"{
             let mapVC = segue.destination as! CountryDetailsViewController
-            mapVC.initialLocation = location
+            mapVC.country = selectedCountry
         }
     }
     

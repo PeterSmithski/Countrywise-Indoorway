@@ -26,7 +26,7 @@ class DataDownloadViewController: UIViewController {
     
     let FLAGS_START_URL = "https://www.countryflags.io/"        // API for flag displaying
     let FLAGS_END_URL = "/shiny/64.png"
-    let COUNTRIES_URL = "https://restcountries.eu/rest/v2/all"  // API provided
+    let COUNTRIES_URL = "https://restcountries.eu/rest/v2/all"  // provided API
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,32 +40,33 @@ class DataDownloadViewController: UIViewController {
     func getCountryCount(url: String){
         Alamofire.request(url, method: .get).responseJSON { (response) in
             if response.result.isSuccess{
-                self.downloadSucces = true
                 self.countryJSON = JSON(response.result.value!)
-                repeat{
-                    if self.countryJSON![self.numberOfCountries]["name"].string == nil{
-                        break
-                    }
-                    self.numberOfCountries += 1
-                }while true
+                self.numberOfCountries = self.countryJSON!.count
+                self.downloadSucces = true
                 self.getCountryData(url: url)
             }else{
                 self.downloadSucces = false
+                self.numberOfCountries = 0
                 self.infoLabel.text = "Woops! Connection problems :("
                 print("Error \(String(describing: response.result.error))")
             }
         }
     }
     
-    func getCountryData(url: String){
+    func getCountryData(url: String) -> Bool{
         if(self.downloadSucces){
             for index in 0 ... self.numberOfCountries - 1{
                 queue.async(){
                     self.downloadedCountries.append(Country.init(name: self.countryJSON![index]["name"].string!,
-                                                             alpha2Code: self.countryJSON![index]["alpha2Code"].string!,
-                                                             lat: self.countryJSON![index]["latlng"][0].double ?? 0,
-                                                             lng: self.countryJSON![index]["latlng"][1].double ?? 0,
-                                                             image: self.getImage(countryCode: self.countryJSON![index]["alpha2Code"].string!)))
+                                                                 cap: self.countryJSON![index]["capital"].string!,
+                                                                 reg: self.countryJSON![index]["subregion"].string!,
+                                                                 dem: self.countryJSON![index]["demonym"].string!,
+                                                                 pop: self.countryJSON![index]["population"].int!,
+                                                                 native: self.countryJSON![index]["nativeName"].string!,
+                                                                 alpha2Code: self.countryJSON![index]["alpha2Code"].string!,
+                                                                 lat: self.countryJSON![index]["latlng"][0].double ?? 0,
+                                                                 lng: self.countryJSON![index]["latlng"][1].double ?? 0,
+                                                                 image: self.getImage(countryCode: self.countryJSON![index]["alpha2Code"].string!)))
                     DispatchQueue.main.async{
                         self.progressView.progress = (Float(index)/Float(self.numberOfCountries))
                         if(index == self.numberOfCountries - 1){
@@ -75,6 +76,7 @@ class DataDownloadViewController: UIViewController {
                 }
             }
         }
+        return downloadSucces
     }
 
     func goToList(){

@@ -122,16 +122,10 @@
 		5B1D8D612279069500B92A38 /* Countrywise-Indoorway */ = {
 			isa = PBXGroup;
 			children = (
-				5B1D8D622279069500B92A38 /* AppDelegate.swift */,
-				5BAEBC2F2284D33200D10354 /* DataDownloadViewController.swift */,
-				5B1D8D642279069500B92A38 /* CountryListViewController.swift */,
-				5B52A78E227BB7B9003F3509 /* CountryDetailsViewController.swift */,
-				5B1D8D662279069500B92A38 /* Main.storyboard */,
-				5B1D8D692279069D00B92A38 /* Assets.xcassets */,
-				5B1D8D6B2279069D00B92A38 /* LaunchScreen.storyboard */,
 				5B1D8D6E2279069D00B92A38 /* Info.plist */,
-				5B52A790227BBDAA003F3509 /* CountryCell.swift */,
-				5B0D404D2281F6E100715FC7 /* Country.swift */,
+				5B5FF0DC22889A700034DDA6 /* Controller */,
+				5B5FF0DB22889A6B0034DDA6 /* View */,
+				5B5FF0DA22889A600034DDA6 /* Model */,
 			);
 			path = "Countrywise-Indoorway";
 			sourceTree = "<group>";
@@ -152,6 +146,36 @@
 				5B1D8D842279069D00B92A38 /* Info.plist */,
 			);
 			path = "Countrywise-IndoorwayUITests";
+			sourceTree = "<group>";
+		};
+		5B5FF0DA22889A600034DDA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B0D404D2281F6E100715FC7 /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B5FF0DB22889A6B0034DDA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B1D8D692279069D00B92A38 /* Assets.xcassets */,
+				5B1D8D6B2279069D00B92A38 /* LaunchScreen.storyboard */,
+				5B1D8D662279069500B92A38 /* Main.storyboard */,
+				5B52A790227BBDAA003F3509 /* CountryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B5FF0DC22889A700034DDA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B1D8D622279069500B92A38 /* AppDelegate.swift */,
+				5BAEBC2F2284D33200D10354 /* DataDownloadViewController.swift */,
+				5B1D8D642279069500B92A38 /* CountryListViewController.swift */,
+				5B52A78E227BB7B9003F3509 /* CountryDetailsViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		6CC7C99F48EF3B85F75204E6 /* Frameworks */ = {
