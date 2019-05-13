@@ -53,7 +53,7 @@ class DataDownloadViewController: UIViewController {
         }
     }
     
-    func getCountryData(url: String) -> Bool{
+    func getCountryData(url: String){
         if(self.downloadSucces){
             for index in 0 ... self.numberOfCountries - 1{
                 queue.async(){
@@ -76,7 +76,6 @@ class DataDownloadViewController: UIViewController {
                 }
             }
         }
-        return downloadSucces
     }
 
     func goToList(){
